@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Rubik+Mono+One&family=Source+Code+Pro:wght@200;300;400;500;600;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*  Variables  */
+$color-creamwhite: #F0EDE8;
+$color-bluelight: #A3BFCB;
+
+
+/* ------------------ */
+* {
+  box-sizing:border-box;
+  font-family: 'Source Code Pro', monospace;
+  // font-family: 'Montserrat', sans-serif;
+  // font-family: 'Titillium Web', sans-serif;
+  // font-family: 'Comfortaa', cursive;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: $color-creamwhite;
+}
+.text-center {
+  text-align: center;
+}
+.super_title {
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.super_subtitle {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: lowercase;
+}
+.title_section {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.title {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+.text {
+  font-size: 20px;
+}
+/* ------------------------ */
+
+.section {
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  padding: 3rem 0;
+}
+
+.wrapper_text {
+  margin: 1rem 0;
+}
