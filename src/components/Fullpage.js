@@ -1,16 +1,19 @@
-import './App.scss';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import ReactFullpage from '@fullpage/react-fullpage';
 import { Container, Row, Col } from 'react-bootstrap';
-import Menu from './Menu';
-import Fullpage from './Fullpage';
 
-function App() {
-  return (
-      <Container fluid>
-        <Menu/>
-        <Fullpage />
-        {/* <Row> */}
-          {/* <Col lg="12">
-          </Col>
+const Fullpage = () => (
+  <ReactFullpage
+    //fullpage options
+    licenseKey = {'YOUR_KEY_HERE'}
+    scrollingSpeed = {1000} /* Options here */
+    navigation
+    // sectionsColor={["orange", "purple", "green"]}
+
+    render={({ state, fullpageApi }) => {
+      return (
+        <ReactFullpage.Wrapper>
           <section className="section container content" id="name">
             <Row className="name">
               <Col lg="6">
@@ -44,14 +47,18 @@ function App() {
           </section>
           <section className="section content " id="skills">
             Skills y Experiencia */}
-          {/* </section>
+          </section>
           <section className="section content" id="porfolio">
             Portafolio / Enlaces
-          </section>
+            <button onClick={() => fullpageApi.moveSectionDown()}>
+              Click me to move down
+            </button>
           <footer> Footer </footer>
-        </Row> */}
-      </Container>
-  );
-}
+          </section>
+        </ReactFullpage.Wrapper>
+      );
+    }}
+  />
+);
 
-export default App;
+export default Fullpage;
