@@ -10,7 +10,6 @@ const Fullpage = () => (
     scrollingSpeed = {1000} /* Options here */
     navigation
     // sectionsColor={["orange", "purple", "green"]}
-
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>
@@ -46,7 +45,7 @@ const Fullpage = () => (
             </div>
           </section>
           <section className="section content " id="skills">
-            Skills y Experiencia */}
+            Skills y Experiencia
           </section>
           <section className="section content" id="porfolio">
             Portafolio / Enlaces
@@ -58,6 +57,7 @@ const Fullpage = () => (
         </ReactFullpage.Wrapper>
       );
     }}
+    
   />
 );
 
