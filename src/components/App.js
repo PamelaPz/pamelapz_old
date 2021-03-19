@@ -1,5 +1,5 @@
 import './App.scss';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Menu from './Menu';
 import Fullpage from './Fullpage';
 
