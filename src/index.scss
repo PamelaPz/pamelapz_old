@@ -3,13 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /*  Variables  */
-$color-creamwhite: #F0EDE8;
-$color-bluelight: #A3BFCB;
-$color-blueaqua: #496B77;
-$color-gray: #736968;
-$color-green: #7C9B33;
+$color-white: #FFFFFF;
+$color-creamblue: #D3E7F0;
+$color-bluepastel: #8ACCED;
+$color-blue: #6CA0BA;
+$color-bluedark: #405E6E;
+$color-gray: #60696E;
 
-
+/* ---------- Color Text ----------- */
+.text-white {
+  color: $color-white;
+}
 
 /* ------------------ */
 * {
@@ -22,7 +26,8 @@ $color-green: #7C9B33;
 body, html {
   margin: 0;
   padding: 0;
-  background-color: $color-creamwhite;
+  color: $color-white;
+  background-color: $color-bluepastel;
 }
 .text-center {
   text-align: center;
@@ -51,17 +56,49 @@ body, html {
 .text {
   font-size: 20px;
 }
+
 /* ------------------------ */
 
 .section {
   height: 100vh;
   width: 100%;
 }
-
-.content {
-  padding: 3rem 0;
+.capa {
+  &::before{
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      background: rgba(0,0,0,.2);
+      content: '';
+    }
 }
-
 .wrapper_text {
   margin: 1rem 0;
+}
+
+
+/* ----------- Fullpage.js ------------ */
+// Dots
+.fp-right {
+  right: 0 !important;
+  left: 17px !important;
+}
+#fp-nav ul li:hover a.active span, #fp-nav ul li a.active span, .fp-slidesNav ul li:hover a.active span, .fp-slidesNav ul li a.active span {
+  height: 4px !important;
+  width: 45px !important;
+  margin: -2px 0 0 -2px !important;
+  background: $color-bluedark !important;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+  border-radius: 2rem !important;
+  height: 4px !important;
+  width: 24px !important;
+  background: $color-bluedark !important;
+}
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span{
+  margin: -2px 0 0 -2px !important;
+  width: 28px !important;
 }

@@ -10,3 +10,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+## Recursos Usados
+- <a href='https://www.freepik.es/vectores/tecnologia'>Vector de Tecnología creado por pikisuperstar - www.freepik.es</a>

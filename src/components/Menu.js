@@ -6,7 +6,7 @@ function Menu() {
       <Container>
         <Row>
           <Col lg="12">
-            <Navbar bg="white" expand="lg" fixed="top">
+            <Navbar bg="transparent" expand="lg" fixed="top">
               <Navbar.Brand href="#home">Pamela.pz</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
