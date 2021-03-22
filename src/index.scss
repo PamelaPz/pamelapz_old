@@ -57,10 +57,18 @@ body, html {
   font-size: 20px;
 }
 
+@media (max-width: 768px) {
+  .super_title {
+    font-size: 3rem;
+  }
+  .super_subtitle {
+    font-size: 1.5rem;
+  }
+}
 /* ------------------------ */
 
 .section {
-  height: 100vh;
+  height: 100vh !important;
   width: 100%;
 }
 .capa {
@@ -79,7 +87,16 @@ body, html {
   margin: 1rem 0;
 }
 
-
+@media (max-width: 768px) {
+  .section{
+    padding:0 1rem;
+  }
+  .capa {
+    &::before{
+      width: 25%;
+    }
+  }
+}
 /* ----------- Fullpage.js ------------ */
 // Dots
 .fp-right {

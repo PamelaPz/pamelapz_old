@@ -16,7 +16,7 @@ const Fullpage = () => (
           <section className="section capa" id="name">
             <div>
             <Row className="name">
-              <Col lg="6">
+              <Col lg="6" sm="12">
                 <div className="wrapper_name">
                   <div>
                     <p className="super_title">Pamela <br /> Pérez</p>
@@ -29,7 +29,7 @@ const Fullpage = () => (
                   </div>
                 </div>
               </Col>
-              <Col lg="6">
+              <Col lg="6" sm="12">
                 <div className="wrapper_portfolio">
                   {/* <h1 className="title_section">Portafolio</h1> */}
                   <div className="wrapper_img">

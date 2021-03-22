@@ -2,6 +2,7 @@
 
 .name {
   width: 100%;
+  margin: 0;
   height: inherit;
   justify-content: center;
   align-items: center;
@@ -26,6 +27,28 @@
       align-items: center;
       background-color: $color-white;
       box-shadow: 20px 20px 0 $color-bluepastel;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .name {
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    .wrapper_name {
+      align-items: flex-start;
+      padding: 0 2rem;
+    }
+    .wrapper_portfolio {
+      width: 70%;
+      margin: 0 auto;
+      padding-bottom: 2rem;
+      .wrapper_img {
+        background-color: transparent;
+        box-shadow: none;
+        img {
+          width: 100%;
+        }
+      }
     }
   }
 }
