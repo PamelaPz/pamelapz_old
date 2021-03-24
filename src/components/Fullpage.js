@@ -1,9 +1,7 @@
 import React from 'react';
 import Menu from './Menu';
 import terminal from '../images/terminal_pink.png';
-import girl1 from '../images/version-control-animate.svg';
 import ReactFullpage from '@fullpage/react-fullpage';
-// import { Row, Col } from 'react-bootstrap';
 
 const Fullpage = () => (
   <>
@@ -15,14 +13,12 @@ const Fullpage = () => (
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
-            <section className="section capa" id="home">
-              {/* <Container> */}
-              {/* <div className=""> */}
-                <div className="name row_reverse">
-                  <div className="column-6 colum-sm-12" >
+            <section className="section" id="home">
+                <div className="wrapper row_reverse">
+                  <div className="column-12 colum-sm-12" >
                     <div className="wrapper_name">
                       <div>
-                        <p className="super_title">Pamela Pérez</p>
+                        <p className="super_title">Pamela <br /> Pérez</p>
                       </div>
                       <div className="wrapper_divider">
                         <img src={terminal} alt=""/>
@@ -32,28 +28,26 @@ const Fullpage = () => (
                       </div>
                     </div>
                   </div>
-                  <div className="column-6 colum-sm-12" >
-                    <div className="wrapper_portfolio">
-                      <div className="capa_binary"></div>
-                      <div className="wrapper_img">
-                        <img src={girl1} alt=""/>
-                      </div>
+                </div>
+            </section>
+
+            <section className="section" id="quien">
+                <div className="wrapper column-12 colum-sm-12 row_reverse" >
+                  <div className="wrapper_name">
+                    <div>
+                      <p className="super_title">¿Quién Soy?</p>
+                    </div>
+                    <div className="wrapper_divider">
+                      <img src={terminal} alt=""/>
+                    </div>
+                    <div className="wrapper_subtitle p_wrap">
+                      <p className="super_subtitle">una chica que ama la tecnología, programar y ayudar a los demás.</p>
+                    </div>
+                    <div className="wrapper_btn">
+                      <a href="#i"><p>Saber más</p></a>
                     </div>
                   </div>
                 </div>
-              {/* </div> */}
-              {/* </Container> */}
-            </section>
-            <section className="section" id="welcome">
-              <div className="container">
-                {/* <h1 className="title">Bienvenido(a)</h1>
-                <div className="wrapper_text">
-                  <p className="text">Geek de nacimiento y corazón, amante de los animales, la tecnología y la música. </p>
-                  <p className="text">Mi principal objetivo se concentra en la creatividad, innovación y programación de ideas que posteriormente se puedan y deban desarrollar para solucionar necesidades del mundo en general.</p>
-                  <p className="text">Procuro ponerme retos sin importar cuánto me tome lograrlo, porque intentar es lo que cuenta.</p>
-                  <p className="text">Escribir más :v</p>
-                </div> */}
-              </div>
             </section>
             {/* <section className="section" id="skills">
               <div className="container">
