@@ -18,8 +18,8 @@ const Fullpage = () => (
             <section className="section capa" id="home">
               {/* <Container> */}
               <div className="name">
-                <Row className="d-flex flex-wrap">
-                  <Col lg="6" sm="12" className="order-lg-1 order-sm-2">
+                <Row className="d-flex flex-lg-row flex-sm-column-reverse">
+                  <Col lg="6" sm="12" >
                     <div className="wrapper_name">
                       <div>
                         <p className="super_title">Pamela <br /> Pérez</p>
@@ -32,7 +32,7 @@ const Fullpage = () => (
                       </div>
                     </div>
                   </Col>
-                  <Col lg="6" sm="12" className="order-sm-1">
+                  <Col lg="6" sm="12" >
                     <div className="wrapper_portfolio">
                       <div className="capa_binary"></div>
                       <div className="wrapper_img">
