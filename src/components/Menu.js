@@ -9,11 +9,11 @@ import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
 
 function Menu() {
   return (
+          <div className="menu">
       <Container fluid>
         <Row>
-          <div className="menu">
           <Col lg="12">
-            <Navbar fixed="top">
+            <Navbar>
               <Navbar.Brand href="" className="logo_img"><img src={logo} alt="Illustration by Freepik Storyset" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
@@ -27,9 +27,9 @@ function Menu() {
               </Navbar.Collapse>
             </Navbar>
           </Col>
-          </div>
         </Row>
       </Container>
+          </div>
   );
 }
 

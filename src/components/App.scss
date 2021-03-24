@@ -4,6 +4,10 @@
   background-color: $color-blueBg;
   width: 100%;
   height: 4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
   .navbar {
     padding: 0 2rem !important;
     height: 4rem;
@@ -46,6 +50,8 @@
     // height: 1.5rem;
   }
 }
+
+// Home - Name
 .name {
   width: 100%;
   margin: 0;
@@ -54,26 +60,58 @@
   align-items: center;
   .wrapper_name {
     width: 100%;
+    height: inherit;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    padding-left: 13rem;
   }
   .wrapper_portfolio{
-    height: 100%;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     .wrapper_img {
       height: auto;
-      width: auto;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
-      // background-color: $color-white;
-      // box-shadow: 20px 20px 0 $color-bluepastel;
+      img {
+        margin-top: 3rem;
+        width: 90%;
+        z-index: 2;
+      }
     }
+    .capa_binary {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url('../images/binary-code-2.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      opacity: .1;
+      .binary_icon {
+        font-size: 2rem;
+      }
+      img {
+        width: auto;
+      }
+    }
+  }
+  .wrapper_divider{ 
+    margin: .5rem 0;
+    img{
+      width: 7rem;
+    }
+  }
+  .wrapper_subtitle {
+    margin: 1rem 0;
   }
 }
 @media (max-width: 768px) {
