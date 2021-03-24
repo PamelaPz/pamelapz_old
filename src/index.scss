@@ -122,3 +122,15 @@ body, html {
   margin: -2px 0 0 -2px !important;
   width: 28px !important;
 }
+
+@media (max-width: 768px) {
+  #fp-nav {
+    top: unset  !important;
+    bottom: 0 !important;
+  }
+  #fp-nav.fp-right {
+    right: 50% !important;
+    left: unset !important;
+    transform: rotate(-90deg);
+  }
+}
