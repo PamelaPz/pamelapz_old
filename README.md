@@ -14,3 +14,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Recursos Usados
 - <a href='https://www.freepik.es/vectores/tecnologia'>Vector de Tecnología creado por pikisuperstar - www.freepik.es</a>
+- <div>Icons made by <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

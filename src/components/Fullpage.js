@@ -1,5 +1,5 @@
 import React from 'react';
-import imgHome from '../images/home.png';
+import imgHome from '../images/web-development.png';
 import ReactFullpage from '@fullpage/react-fullpage';
 import { Row, Col } from 'react-bootstrap';
 
@@ -13,7 +13,7 @@ const Fullpage = () => (
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>
-          <section className="section capa" id="name">
+          <section className="section capa" id="home">
             <div>
             <Row className="name">
               <Col lg="6" sm="12">

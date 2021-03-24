@@ -7,13 +7,13 @@ function Menu() {
         <Row>
           <Col lg="12">
             <Navbar bg="transparent" expand="lg" fixed="top">
-              <Navbar.Brand href="#home">Pamela.pz</Navbar.Brand>
+              <Navbar.Brand href="#home">Pamela Pérez</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                  <Nav.Link href="#home">Inicio</Nav.Link>
-                  <Nav.Link href="#link">Experiencia</Nav.Link>
-                  <Nav.Link href="#link">Portafolio</Nav.Link>
+                  <Nav.Link href="#home">Instagram</Nav.Link>
+                  <Nav.Link href="#link">Linkedin</Nav.Link>
+                  <Nav.Link href="#link">Menu |||</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
