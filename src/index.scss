@@ -89,11 +89,14 @@ body, html {
 
 @media (max-width: 768px) {
   .section{
-    padding:0 1rem;
+    padding:0 0rem;
+    width: 100%;
+    height: 100vh;
   }
   .capa {
     &::before{
-      width: 25%;
+      width: 100%;
+      height: 50vh;
     }
   }
 }

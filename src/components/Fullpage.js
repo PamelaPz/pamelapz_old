@@ -17,42 +17,44 @@ const Fullpage = () => (
           <ReactFullpage.Wrapper>
             <section className="section capa" id="home">
               {/* <Container> */}
-              <Row className="name">
-                <Col lg="6" sm="12">
-                  <div className="wrapper_name">
-                    <div>
-                      <p className="super_title">Pamela <br /> Pérez</p>
+              <div className="name">
+                <Row className="d-flex flex-wrap">
+                  <Col lg="6" sm="12" className="order-lg-1 order-sm-2">
+                    <div className="wrapper_name">
+                      <div>
+                        <p className="super_title">Pamela <br /> Pérez</p>
+                      </div>
+                      <div className="wrapper_divider">
+                        <img src={terminal} alt=""/>
+                      </div>
+                      <div className="wrapper_subtitle">
+                        <p className="super_subtitle">Maquetador / <br/>Desarrollador Frontend</p>
+                      </div>
                     </div>
-                    <div className="wrapper_divider">
-                      <img src={terminal} alt=""/>
+                  </Col>
+                  <Col lg="6" sm="12" className="order-sm-1">
+                    <div className="wrapper_portfolio">
+                      <div className="capa_binary"></div>
+                      <div className="wrapper_img">
+                        <img src={girl1} alt="" width="600rem"/>
+                      </div>
                     </div>
-                    <div className="wrapper_subtitle">
-                      <p className="super_subtitle">Maquetador / <br/>Desarrollador Frontend</p>
-                    </div>
-                  </div>
-                </Col>
-                <Col lg="6" sm="12" className="p-0">
-                  <div className="wrapper_portfolio">
-                    <div className="capa_binary"></div>
-                    <div className="wrapper_img">
-                      <img src={girl1} alt="" width="600rem"/>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
+                  </Col>
+                </Row>
+              </div>
               {/* </Container> */}
             </section>
-            {/* <section className="section" id="welcome">
+            <section className="section" id="welcome">
               <div className="container">
-                <h1 className="title">Bienvenido(a)</h1>
+                {/* <h1 className="title">Bienvenido(a)</h1>
                 <div className="wrapper_text">
                   <p className="text">Geek de nacimiento y corazón, amante de los animales, la tecnología y la música. </p>
                   <p className="text">Mi principal objetivo se concentra en la creatividad, innovación y programación de ideas que posteriormente se puedan y deban desarrollar para solucionar necesidades del mundo en general.</p>
                   <p className="text">Procuro ponerme retos sin importar cuánto me tome lograrlo, porque intentar es lo que cuenta.</p>
                   <p className="text">Escribir más :v</p>
-                </div>
+                </div> */}
               </div>
-            </section> */}
+            </section>
             {/* <section className="section" id="skills">
               <div className="container">
                 Skills y Experiencia
