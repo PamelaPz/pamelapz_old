@@ -3,7 +3,7 @@ import Menu from './Menu';
 import terminal from '../images/terminal_pink.png';
 import girl1 from '../images/version-control-animate.svg';
 import ReactFullpage from '@fullpage/react-fullpage';
-import { Row, Col } from 'react-bootstrap';
+// import { Row, Col } from 'react-bootstrap';
 
 const Fullpage = () => (
   <>
