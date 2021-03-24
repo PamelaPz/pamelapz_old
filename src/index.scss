@@ -4,11 +4,11 @@
 
 /*  Variables  */
 $color-white: #FFFFFF;
-$color-creamblue: #D3E7F0;
-$color-bluepastel: #8ACCED;
-$color-blue: #6CA0BA;
-$color-bluedark: #405E6E;
-$color-gray: #60696E;
+$color-blueBg: #07182B;
+// $color-bluepastel: #8ACCED;
+// $color-blue: #6CA0BA;
+// $color-bluedark: #405E6E;
+// $color-gray: #60696E;
 
 /* ---------- Color Text ----------- */
 .text-white {
@@ -27,7 +27,7 @@ body, html {
   margin: 0;
   padding: 0;
   color: $color-white;
-  background-color: $color-bluepastel;
+  background-color: $color-blueBg;
 }
 .text-center {
   text-align: center;
@@ -79,7 +79,7 @@ body, html {
       right: 0;
       width: 50%;
       height: 100%;
-      background: rgba(0,0,0,.2);
+      background: rgba(19,66,120,.5);
       content: '';
     }
 }
@@ -107,13 +107,13 @@ body, html {
   height: 4px !important;
   width: 45px !important;
   margin: -2px 0 0 -2px !important;
-  background: $color-bluedark !important;
+  background: $color-white !important;
 }
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
   border-radius: 2rem !important;
   height: 4px !important;
   width: 24px !important;
-  background: $color-bluedark !important;
+  background: $color-white !important;
 }
 #fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span{
   margin: -2px 0 0 -2px !important;

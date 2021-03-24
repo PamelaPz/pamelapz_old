@@ -1,5 +1,5 @@
 import React from 'react';
-import imgHome from '../images/web-development.png';
+// import imgHome from '../images/web-development.png';
 import ReactFullpage from '@fullpage/react-fullpage';
 import { Row, Col } from 'react-bootstrap';
 
@@ -9,13 +9,12 @@ const Fullpage = () => (
     licenseKey = {'YOUR_KEY_HERE'}
     scrollingSpeed = {900} /* Options here */
     navigation
-    // sectionsColor={["", "", "", ""]} // #5DB3C2 , #219FB5, #177282, #0A2F36
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>
           <section className="section capa" id="home">
-            <div>
-            <Row className="name">
+            <div className="name">
+            <Row >
               <Col lg="6" sm="12">
                 <div className="wrapper_name">
                   <div>
@@ -33,7 +32,7 @@ const Fullpage = () => (
                 <div className="wrapper_portfolio">
                   {/* <h1 className="title_section">Portafolio</h1> */}
                   <div className="wrapper_img">
-                    <img src={imgHome} alt="" width="600rem"/>
+                    {/* <img src={imgHome} alt="" width="600rem"/> */}
                   </div>
                 </div>
               </Col>
