@@ -22,7 +22,7 @@ const Fullpage = () => (
                   <div className="col-lg-6 col-sm-12" >
                     <div className="wrapper_name">
                       <div>
-                        <p className="super_title">Pamela <br /> Pérez</p>
+                        <p className="super_title">Pamela Pérez</p>
                       </div>
                       <div className="wrapper_divider">
                         <img src={terminal} alt=""/>
@@ -36,7 +36,7 @@ const Fullpage = () => (
                     <div className="wrapper_portfolio">
                       <div className="capa_binary"></div>
                       <div className="wrapper_img">
-                        <img src={girl1} alt="" width="600rem"/>
+                        <img src={girl1} alt=""/>
                       </div>
                     </div>
                   </div>
