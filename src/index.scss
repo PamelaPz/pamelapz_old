@@ -129,8 +129,18 @@ body, html {
     bottom: 0 !important;
   }
   #fp-nav.fp-right {
-    right: 50% !important;
+    right: 0 !important;
     left: unset !important;
     transform: rotate(-90deg);
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+  #fp-nav ul li:hover a.active span, #fp-nav ul li a.active span, .fp-slidesNav ul li:hover a.active span, .fp-slidesNav ul li a.active span {
+    width: 35px !important;
+    margin: -2px 0 0 -2px !important;
+  }
+  #fp-nav ul li a span, .fp-slidesNav ul li a span{
+    height: 4px !important;
+    width: 20px !important;
   }
 }
