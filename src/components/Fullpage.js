@@ -3,7 +3,7 @@ import Menu from './Menu';
 import terminal from '../images/terminal_pink.png';
 import girl1 from '../images/version-control-animate.svg';
 import ReactFullpage from '@fullpage/react-fullpage';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 const Fullpage = () => (
   <>
@@ -42,7 +42,7 @@ const Fullpage = () => (
               </Row>
               {/* </Container> */}
             </section>
-            <section className="section" id="welcome">
+            {/* <section className="section" id="welcome">
               <div className="container">
                 <h1 className="title">Bienvenido(a)</h1>
                 <div className="wrapper_text">
@@ -52,20 +52,20 @@ const Fullpage = () => (
                   <p className="text">Escribir más :v</p>
                 </div>
               </div>
-            </section>
-            <section className="section" id="skills">
+            </section> */}
+            {/* <section className="section" id="skills">
               <div className="container">
                 Skills y Experiencia
               </div>
-            </section>
-            <section className="section" id="porfolio">
+            </section> */}
+            {/* <section className="section" id="porfolio">
               <div className="container">
                 Portafolio / Enlaces
                 <button onClick={() => fullpageApi.moveSectionDown()}>
                   Click me to move down
                 </button>
               </div>
-            </section>
+            </section> */}
           </ReactFullpage.Wrapper>
         );
       }}
