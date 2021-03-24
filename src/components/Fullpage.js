@@ -18,7 +18,7 @@ const Fullpage = () => (
             <section className="section capa" id="home">
               {/* <Container> */}
               <div className="name">
-                <Row className="d-flex flex-lg-row flex-sm-column-reverse">
+                <Row className="row_reverse">
                   <Col lg="6" sm="12" >
                     <div className="wrapper_name">
                       <div>
