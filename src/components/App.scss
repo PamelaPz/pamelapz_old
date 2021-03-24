@@ -142,11 +142,13 @@
     flex-direction: column-reverse;
     .wrapper_name {
       height: 50vh;
+      overflow: hidden;
       align-items: flex-start;
       padding: 0 3rem;
     }
     .wrapper_portfolio {
       height: 50vh;
+      overflow: hidden;
       justify-content: center;
       align-items: flex-end;
       .wrapper_img {

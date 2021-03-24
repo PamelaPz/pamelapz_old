@@ -17,9 +17,9 @@ const Fullpage = () => (
           <ReactFullpage.Wrapper>
             <section className="section capa" id="home">
               {/* <Container> */}
-              <div className="name">
-                <Row className="row_reverse">
-                  <Col lg="6" sm="12" >
+              {/* <div className=""> */}
+                <div className="name row row_reverse">
+                  <div className="col-lg-6 col-sm-12" >
                     <div className="wrapper_name">
                       <div>
                         <p className="super_title">Pamela <br /> Pérez</p>
@@ -31,17 +31,17 @@ const Fullpage = () => (
                         <p className="super_subtitle">Maquetador / <br/>Desarrollador Frontend</p>
                       </div>
                     </div>
-                  </Col>
-                  <Col lg="6" sm="12" >
+                  </div>
+                  <div className="col-lg-6 col-sm-12" >
                     <div className="wrapper_portfolio">
                       <div className="capa_binary"></div>
                       <div className="wrapper_img">
                         <img src={girl1} alt="" width="600rem"/>
                       </div>
                     </div>
-                  </Col>
-                </Row>
-              </div>
+                  </div>
+                </div>
+              {/* </div> */}
               {/* </Container> */}
             </section>
             <section className="section" id="welcome">
