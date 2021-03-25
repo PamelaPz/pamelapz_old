@@ -29,6 +29,12 @@ body, html {
 .p-0 {
   padding: 0 !important;
 }
+.mt-2 {
+  padding-top: 2rem;
+}
+.mt-3 {
+  padding-top: 3rem;
+}
 .column-6 {
   width: 50%;
 }
@@ -44,7 +50,7 @@ body, html {
   line-height: 1.2;
   text-transform: uppercase;
   margin: 0 !important;
-  text-shadow: 10px 10px 30px rgba(0,0,0,.3);
+  text-shadow: 10px 10px 30px rgba(0,0,0,.4);
 }
 .super_subtitle {
   font-size: 1.5rem;
@@ -69,10 +75,13 @@ body, html {
     font-size: 2.5rem;
   }
   .super_subtitle {
-    font-size: 1rem;
+    font-size: .9rem;
   }
   .colum-sm-12 {
     width: 100% !important;
+  }
+  .mt-2 {
+    padding-top: .5rem;
   }
 }
 /* ------------------------ */
@@ -94,18 +103,32 @@ body, html {
   }
 }
 #home.section::before {
-    background-image: url('./images/version-control-animate.svg'), url('./images/binary-code-2.png');
-    background-repeat: no-repeat;
-    background-position: center 1cm, center;
-    background-origin: border-box;
-    background-size: contain, cover;
+  background-image: url('./images/version-control-animate.svg'), url('./images/binary-code-2.png');
+  background-repeat: no-repeat;
+  background-position: center 1cm, center;
+  background-origin: border-box;
+  background-size: contain, cover;
 }
 #quien.section::before {
-    background-image: url('./images/questions-animate.svg'), url('./images/binary-code-2.png');
-    background-repeat: no-repeat;
-    background-position: center 1cm, center;
-    background-origin: border-box;
-    background-size: contain, cover;
+  background-image: url('./images/questions-animate.svg'), url('./images/binary-code-2.png');
+  background-repeat: no-repeat;
+  background-position: center 1cm, center;
+  background-origin: border-box;
+  background-size: contain, cover;
+}
+#portfolio.section::before {
+  background-image: url('./images/portfolio-update-animate.svg'), url('./images/binary-code-2.png');
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-origin: border-box;
+  background-size: 110%, cover;
+}
+#contact.section::before {
+  background-image: url('./images/conversation-animate.svg'), url('./images/binary-code-2.png');
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-origin: border-box;
+  background-size: 110%, cover;
 }
 .wrapper_text {
   margin: 1rem 0;
