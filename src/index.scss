@@ -174,14 +174,12 @@ body, html {
 @media (max-width: 768px) {
   #fp-nav {
     top: unset  !important;
-    bottom: 0 !important;
+    bottom: 22% !important;
   }
   #fp-nav.fp-right {
-    right: 0 !important;
-    left: unset !important;
+    // right: 0 !important;
+    // left: unset !important;
     transform: rotate(-90deg);
-    margin-left: 50%;
-    margin-right: 50%;
   }
   #fp-nav ul li:hover a.active span, #fp-nav ul li a.active span, .fp-slidesNav ul li:hover a.active span, .fp-slidesNav ul li a.active span {
     width: 35px !important;
