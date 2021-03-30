@@ -23,3 +23,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - <a href="https://storyset.com/work">Illustration by Freepik Storyset</a> 
 - <a href="https://storyset.com/online">Illustration by Freepik Storyset</a>
 - <a href="https://storyset.com/web">Illustration by Freepik Storyset</a>
+- <a href="https://storyset.com/education">Illustration by Freepik Storyset</a>
+- <a href="https://storyset.com/computer">Illustration by Freepik Storyset</a>
+- <a href="https://storyset.com/web">Illustration by Freepik Storyset</a>
