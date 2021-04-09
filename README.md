@@ -14,8 +14,4 @@
 
 
 - Illustration by Freepik Storyset
-- <a href="https://storyset.com/work">work</a> 
-- <a href="https://storyset.com/online">online</a>
-- <a href="https://storyset.com/web">web</a>
-- <a href="https://storyset.com/education">education</a>
-- <a href="https://storyset.com/computer">computer</a>
+- <a href="https://storyset.com/work">work</a>, <a href="https://storyset.com/online">online</a>, <a href="https://storyset.com/web">web</a>, <a href="https://storyset.com/education">education</a>, <a href="https://storyset.com/computer">computer</a>, 
