@@ -1,7 +1,7 @@
 # Portafolio / Presentación
 
  Este <a href="https://pamelapz.vercel.app/">enlace</a> te llevará a mi portafolio.
- Sí te interesa algún diseño y desarrollo de landing, contáctanme.
+ Si te interesa algún diseño y desarrollo de landing, contáctanme.
  
  Además cualquier comentario de feedback es bien recibido.
 
