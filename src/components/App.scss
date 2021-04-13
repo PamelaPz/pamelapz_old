@@ -18,16 +18,15 @@
     }
   }
   .navbar-expand .navbar-nav .nav-link {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-    padding-top: 0;
-    padding-bottom: 0;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    padding: 0;
   }
   .menu_img {
-    padding-left: 2rem;
-    padding-right: .5rem;
+    margin-left: 2rem;
+    margin-right: .5rem;
     img {
-      width: 2.5rem;
+      width: 2.1rem;
     }
   }
   .navbar-brand {
@@ -141,7 +140,7 @@
 .wrapper_socials {
   margin-top: 2rem;
   .icon_social {
-    padding-right: 3rem;
+    margin-right: 3rem;
     img {
       width: 1.7rem;
     }

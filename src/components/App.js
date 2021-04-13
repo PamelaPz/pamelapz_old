@@ -1,15 +1,35 @@
+import React from "react";
+import Menu from './Menu';
+import Home from './Home';
+import Soy from './Soy';
 import './App.scss';
-// import Menu from './Menu';
-import Fullpage from './Fullpage';
-import { Container } from 'react-bootstrap';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <Container fluid style={{padding: "0"}}>
-      {/* <Menu/> */}
-      <Fullpage />
-    </Container>
+    <>
+        <Router>
+          <Menu />
+          <SwitchRoutes />
+        </Router>
+    </>
   );
 }
+
+function SwitchRoutes() {
+    return (
+      <>
+        <Switch>
+          <Route exact path="/" children={<Home />} />
+          <Route path="/iam" children={<Soy />} />
+        </Switch>
+  
+      </>
+    );
+  }
 
 export default App;
