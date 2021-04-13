@@ -1,5 +1,3 @@
-import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
