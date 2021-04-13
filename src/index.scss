@@ -5,6 +5,14 @@
 /*  Variables  */
 $color-white: #FFFFFF;
 $color-blueBg: #07182B;
+$color-blue: #134278;
+$color-blueLight: #6CA0BA;
+$color-blueOpacity: rgba(31,108,196,.5);
+$color-pinkLight: #F76C6C;
+$color-pink: #FF4D5A;
+$color-gray: #60696E;
+$color-gray2: #707070;
+$color-grayOpacity: rgba(84,87,89,.75);
 
 
 /* ---------- Color Text ----------- */
@@ -12,13 +20,15 @@ $color-blueBg: #07182B;
   color: $color-white;
 }
 .text-white {
-  color: white;
+  color: $color-white;
 }
 .without_decoration {
   list-style: none;
   text-decoration: none;
 }
-
+.bg_white {
+  background-color: $color-white;
+}
 /* ------------------ */
 * {
   box-sizing:border-box;
@@ -140,15 +150,15 @@ body, html {
 
 .without_bg {
   &::before {
-    background: transparent ;
+    background: transparent;
   }
 }
 #soy.section::before {
   background-image: url('./images/questions-animate.svg'), url('./images/binary-code-2.png');
   background-repeat: no-repeat;
-  background-position: center 1cm, center;
+  background-position: bottom, center;
   background-origin: border-box;
-  background-size: 80%, cover;
+  background-size: 85%, cover;
   z-index: 2;
 }
 .wrapper_text {

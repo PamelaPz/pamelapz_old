@@ -19,6 +19,9 @@ function Soy() {
                 </div>
             </div>
         </section>
+        <section className="section">
+
+        </section>
     </>
   );
 }
