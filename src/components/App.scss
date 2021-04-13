@@ -275,7 +275,47 @@
   align-items: flex-end;
   // margin-bottom: 1rem;
 }
-
+@media (max-width: 768px) {
+  .content-sm {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .wrapper_title-section p {
+      font-size: 35px;
+      letter-spacing: 10px;
+  }
+  .wrapper_info {
+    padding-top: 2.5rem;
+    width: 100%;
+  }
+  .line_hr {
+    width: 3rem;
+    margin-right: 1rem;
+  }
+  .wrapper-pasion {
+    padding: 2.5rem 0 1rem;
+  }
+  .title-p {
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin-bottom: 1.3rem;
+  }
+  .wrapper_text-p {
+    width: 82%;
+    margin-left: 0;
+  }
+  .text-p {
+    font-size: 16px;
+    padding-bottom: 0rem;
+  }
+  .img-pasion {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+  .img-hobbie { 
+    width: 85%;
+  }
+}
 // Skills
 .wrapper_skill {
   display: flex;
@@ -338,11 +378,49 @@
     border-radius: 5rem;
   }
 }
+@media (max-width: 768px) {
+  .wrapper_skill {
+    width: 100%;
+    padding: 0rem;
+    .content_header {
+      width: 100%;
+      margin: auto;
+      margin: 1rem 0;
+      justify-content: center;
+      padding-left: 0;
+      .wrapper_images {
+        img{
+          width: 5rem;
+        }
+        img.img-certificate{
+          width: 2.5rem !important;
+        }
+      }
+      .wrapper_info-skill {
+        margin: 0 1rem;
+        .title-skill {
+          font-size: 20px;
+          letter-spacing: 4px;
+        }
+        .divider {
+          border-top-color: $color-gray2;
+          border-top-width: 2px;
+          opacity: .5;
+        }
+        .p-years {
+          padding: 0;
+          margin: 0;
+          font-size: 18px;
+          font-style: italic;
+          color: $color-grayOpacity;
+          font-family: 'Montserrat', sans-serif;
+        }
+      }
+    }
+  }
+}
 
 /* ----------- footer ----------- */
-.wrapper_footer {
-  
-}
 .footer {
   width: 100%;
   text-align: center;
@@ -354,5 +432,21 @@
     font-size: 12px;
     padding: 0;
     margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper-footer {
+    width: 80%;
+    margin: auto;
+  }
+  .footer {
+    width: 50%;
+    margin: auto;
+  }
+  a {
+    text-decoration: underline !important;
+  }
+  span {
+    padding-right: 0rem !important;
   }
 }
