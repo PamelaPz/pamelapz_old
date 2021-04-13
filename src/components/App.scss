@@ -209,3 +209,39 @@
     }
   }
 }
+
+/* -----------------  Soy ----------------- */
+.wrapper_title-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  p {
+    font-size: 70px;
+    letter-spacing: 20px;
+    font-family: 'Mukta', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+}
+.soy-pt {
+  padding: 2rem;
+}
+.line_hr {
+  width: 15%;
+  margin-right: 1.5rem;
+  hr {
+    border-top-width: 4px;
+    border-top-color: $color-pink;
+  }
+}
+.wrapper_info {
+  padding-top: 2.5rem;
+  width: 70%;
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: $color-gray;
+  }
+}

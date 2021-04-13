@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&display=swap');
 /*  Variables  */
 $color-white: #FFFFFF;
 $color-blueBg: #07182B;
@@ -14,13 +14,15 @@ $color-gray: #60696E;
 $color-gray2: #707070;
 $color-grayOpacity: rgba(84,87,89,.75);
 
-
 /* ---------- Color Text ----------- */
 .text-white {
   color: $color-white;
 }
 .text-white {
   color: $color-white;
+}
+.text-bluebg {
+  color: $color-blueBg;
 }
 .without_decoration {
   list-style: none;
@@ -51,6 +53,9 @@ body, html {
 }
 .mt-3 {
   padding-top: 3rem;
+}
+.pt-6 {
+  padding-top: 6rem;
 }
 .column-6 {
   width: 50%;
