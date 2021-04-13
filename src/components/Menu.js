@@ -2,7 +2,7 @@ import './App.scss';
 import linkedin from '../images/linkedin.png';
 import instagram from '../images/instagram.png';
 import whatsapp from '../images/whatsapp.png';
-import youtube from '../images/youtube.png';
+// import youtube from '../images/youtube.png';
 import menu from '../images/Menu.png';
 import logo from '../images/logo/logo.png';
 import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';

@@ -275,3 +275,84 @@
   align-items: flex-end;
   // margin-bottom: 1rem;
 }
+
+// Skills
+.wrapper_skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 0 2rem;
+  width: 80%;
+  text-align: center;
+  .content_header {
+    width: 80%;
+    margin: 2rem 0;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    .wrapper_images {
+      position: relative;
+      img{
+        width: 6rem;
+      }
+      img.img-certificate{
+        position: absolute;
+        left: -15px;
+        top: -20px;
+        width: 2.8rem !important;
+      }
+    }
+    .wrapper_info-skill {
+      width: fit-content;
+      margin: 0 2rem;
+      .title-skill {
+        font-size: 28px;
+        text-transform: uppercase;
+        color: $color-grayOpacity;
+        margin: 0;
+        padding: 0 .3rem;
+        letter-spacing: 5px;
+        font-family: 'Montserrat', sans-serif;
+      }
+      .divider {
+        border-top-color: $color-gray2;
+        border-top-width: 2px;
+        opacity: .5;
+        margin: .5rem 0;
+      }
+      .p-years {
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+        font-style: italic;
+        color: $color-grayOpacity;
+        font-family: 'Montserrat', sans-serif;
+      }
+    }
+  }
+  .barra {
+    width: 80%;
+    border-top: 15px solid $color-blueLight;
+    border-radius: 5rem;
+  }
+}
+
+/* ----------- footer ----------- */
+.wrapper_footer {
+  
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  p {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+  }
+}

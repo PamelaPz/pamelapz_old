@@ -24,12 +24,18 @@ $color-grayOpacity: rgba(84,87,89,.75);
 .text-bluebg {
   color: $color-blueBg;
 }
+.text-pink {
+  color: $color-pink;
+}
 .without_decoration {
   list-style: none;
   text-decoration: none;
 }
 .bg_white {
   background-color: $color-white;
+}
+.bg-bluebg {
+  background-color: $color-blueBg;
 }
 /* ------------------ */
 * {
@@ -49,10 +55,10 @@ body, html {
   padding: 0 !important;
 }
 .mt-2 {
-  padding-top: 2rem;
+  margin-top: 2rem;
 }
 .mt-3 {
-  padding-top: 3rem;
+  margin-top: 3rem;
 }
 .pt-6 {
   padding-top: 6rem;
