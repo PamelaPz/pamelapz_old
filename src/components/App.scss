@@ -393,8 +393,17 @@
   }
   .barra {
     width: 80%;
-    border-top: 15px solid $color-blueLight;
     border-radius: 5rem;
+  }
+  .progress-bar{
+    color: #fff;
+    text-align: right;
+    // align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+    padding-top: .15rem;
+    background-color: $color-blueLight;
+    transition: width .6s ease 2s;
   }
 }
 @media (max-width: 768px) {
