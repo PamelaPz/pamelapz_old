@@ -203,9 +203,9 @@ body, html {
       top: 50% !important;
     }
   }
-  #home.section::before, #quien.section::before {
-    background-position: center .4cm !important;
-  }
+  // #home.section::before, #quien.section::before {
+  //   background-position: center .4cm !important;
+  // }
 }
 /* ------------ Scroll Text ----------- */
 .wp_scroll {
@@ -283,11 +283,11 @@ body, html {
 @media (max-width: 768px) {
   #fp-nav {
     top: unset  !important;
-    bottom: 22% !important;
+    bottom: 0 !important;
+    width: fit-content;
+    left: calc(50% - 1rem) !important;
   }
   #fp-nav.fp-right {
-    // right: 0 !important;
-    // left: unset !important;
     transform: rotate(-90deg);
   }
   #fp-nav ul li:hover a.active span, #fp-nav ul li a.active span, .fp-slidesNav ul li:hover a.active span, .fp-slidesNav ul li a.active span {
