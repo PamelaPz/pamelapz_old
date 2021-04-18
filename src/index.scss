@@ -37,6 +37,7 @@ $color-grayOpacity: rgba(84,87,89,.75);
 .bg-bluebg {
   background-color: $color-blueBg;
 }
+
 /* ------------------ */
 * {
   box-sizing:border-box;
@@ -125,7 +126,7 @@ body, html {
 /* ----------- ::before de section ------------- */
 
 .section {
-  height: 100vh !important;
+  // height: 100vh !important;
   width: 100%;
   &::before {
     display: block;
@@ -198,7 +199,6 @@ body, html {
   .section{
     padding:0 0rem;
     width: 100%;
-    height: 100vh;
     overflow: hidden;
     right: 0;
     &::before{
