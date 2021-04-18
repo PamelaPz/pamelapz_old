@@ -1,7 +1,7 @@
 import React from "react";
 import terminal from '../assets/images/terminal_pink.png';
 import Footer from './Footer';
-import { Col, Row } from 'react-bootstrap';
+// import { Col, Row } from 'react-bootstrap';
 
 function Portfolio() {
   return (

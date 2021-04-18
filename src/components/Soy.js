@@ -21,7 +21,7 @@ import certificate from '../assets/images/skills/certificate.png';
 import scroll from '../assets/images/mouse_scroll.png';
 
 import Footer from './Footer';
-import { ShakeSlow, Shake } from 'reshake'
+import { Shake } from 'reshake'
 import { Col, Row } from 'react-bootstrap';
 
 function Soy() {
