@@ -81,7 +81,7 @@ const Fullpage = () => (
                     <div className="wrapper_divider ">
                       <img src={terminal} alt="terminal"/>
                     </div>
-                    <div className="wrapper_subtitle p_wrap mt-2">
+                    <div className="wrapper_subtitle p_wrap mt-2 hvr-sweep-to-left">
                       <p className="super_subtitle" id="email"><a className="text-white without_decoration" href="mailto:jpamelapz02@gmail.com">jpamelapz02@gmail.com</a> </p>
                     </div>
                     <div className="wrapper_socials">

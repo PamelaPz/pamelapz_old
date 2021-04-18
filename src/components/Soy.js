@@ -45,8 +45,6 @@ function Soy() {
                 </div>
             </section>
             <section className="bg_white text-bluebg soy-pt">
-                {/* <div className="wrapper column-6 colum-sm-12" >
-                </div> */}
                 <Row className="pt-6">
                     <Col xs="12" lg="5">
                         <div className="wrapper_title-section ">
@@ -188,9 +186,6 @@ function Soy() {
                         <div className="wrapper_title-section">
                             <div className="line_hr"> <hr /> </div>
                             <p className="">Habilidades</p>
-                            {/* <Shake h={10} v={0} r={3}>
-                                Brrr...
-                            </Shake> */}
                         </div>
                     </Col>
                     <Col xs="12" lg="6">
