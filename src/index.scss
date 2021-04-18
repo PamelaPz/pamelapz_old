@@ -84,6 +84,7 @@ body, html {
   font-size: 1.5rem;
   font-family: 'Source Code Pro', monospace;
   text-transform: lowercase;
+  transition: all .5s;
 }
 .title_section {
   font-family: 'Montserrat', sans-serif;
@@ -137,28 +138,28 @@ body, html {
   }
 }
 #home.section::before {
-  background-image: url('./images/version-control-animate.svg'), url('./images/binary-code-2.png');
+  background-image: url('./assets/images/version-control-animate.svg'), url('./assets/images/binary-code-2.png');
   background-repeat: no-repeat;
   background-position: center 1cm, center;
   background-origin: border-box;
   background-size: contain, cover;
 }
 #quien.section::before {
-  background-image: url('./images/questions-animate.svg'), url('./images/binary-code-2.png');
+  background-image: url('./assets/images/questions-animate.svg'), url('./assets/images/binary-code-2.png');
   background-repeat: no-repeat;
   background-position: center 1cm, center;
   background-origin: border-box;
   background-size: contain, cover;
 }
 #portfolio.section::before {
-  background-image: url('./images/portfolio-update-animate.svg'), url('./images/binary-code-2.png');
+  background-image: url('./assets/images/portfolio-update-animate.svg'), url('./assets/images/binary-code-2.png');
   background-repeat: no-repeat;
   background-position: center, center;
   background-origin: border-box;
   background-size: 110%, cover;
 }
 #contact.section::before {
-  background-image: url('./images/conversation-animate.svg'), url('./images/binary-code-2.png');
+  background-image: url('./assets/images/conversation-animate.svg'), url('./assets/images/binary-code-2.png');
   background-repeat: no-repeat;
   background-position: center, center;
   background-origin: border-box;
@@ -171,12 +172,20 @@ body, html {
   }
 }
 #soy.section::before {
-  background-image: url('./images/questions-animate.svg'), url('./images/binary-code-2.png');
+  background-image: url('./assets/images/questions-animate.svg'), url('./assets/images/binary-code-2.png');
   background-repeat: no-repeat;
   background-position: bottom, center;
   background-origin: border-box;
   background-size: 85%, cover;
   z-index: 2;
+}
+#cv.section::before {
+  background-image: url('./assets/images/maintenance-animate.svg');
+  background-repeat: no-repeat;
+  background-position: bottom, center;
+  background-origin: border-box;
+  background-size: 85%;
+  z-index: 1;
 }
 .wrapper_text {
   margin: 1rem 0;
@@ -196,11 +205,61 @@ body, html {
     background-position: center .4cm !important;
   }
 }
+/* ------------ Scroll Text ----------- */
+.wp_scroll {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 12rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  .line_scroll {
+    width: 1px;
+    height: 5.5rem;
+    background-color: $color-white;
+    opacity: .6;
+  }
+  .wp_img {
+    position: absolute;
+    bottom: 6rem;
+    img.mouse{
+      width: 2.8rem;
+    }
+    .dot {
+      position: absolute;
+      bottom: 60%;
+      left: calc(50% - 2.5px);
+      width: 5px;
+      height: 9px;
+      border-radius: 1rem;
+      background-color: $color-white;
+      animation: scroll 1s infinite;
+    }
+  }
+  @keyframes scroll {
+    0%{
+      bottom: 60%;
+    }
+    100% {
+      bottom: 25%;
+      transform: scale(1.2);
+      // left: calc(50% - 2.5px);
+    }
+  }
+}
+
 /* ----------- Fullpage.js ------------ */
 // Dots
 .fp-right {
   right: 0 !important;
   left: 17px !important;
+}
+#fp-nav ul li a.active span,  
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+// #fp-nav ul li a span, .fp-slidesNav ul li a span {
+  transition: all .5s !important;
 }
 #fp-nav ul li:hover a.active span, #fp-nav ul li a.active span, .fp-slidesNav ul li:hover a.active span, .fp-slidesNav ul li a.active span {
   height: 4px !important;
@@ -216,7 +275,7 @@ body, html {
 }
 #fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span{
   margin: -2px 0 0 -2px !important;
-  width: 28px !important;
+  width: 30px !important;
 }
 
 @media (max-width: 768px) {

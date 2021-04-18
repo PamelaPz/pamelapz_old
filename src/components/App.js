@@ -2,6 +2,8 @@ import React from "react";
 import Menu from './Menu';
 import Home from './Home';
 import Soy from './Soy';
+import Portfolio from './Portfolio';
+
 import './App.scss';
 import {
     BrowserRouter as Router,
@@ -26,6 +28,7 @@ function SwitchRoutes() {
         <Switch>
           <Route exact path="/" children={<Home />} />
           <Route path="/iam" children={<Soy />} />
+          <Route path="/portfoio" children={<Portfolio />} />
         </Switch>
   
       </>

@@ -1,24 +1,27 @@
 import React from "react";
-import terminal from '../images/terminal_pink.png';
-import pasion1 from '../images/programming.png';
-import pasion2 from '../images/javascript.png';
-import pasion3 from '../images/help.png';
-import hobbie1 from '../images/Gaming-pana.png';
-import hobbie2 from '../images/Media-player-pana.png';
-import hobbie3 from '../images/Studying-pana.png';
-import skill1 from '../images/skills/html.png';
-import skill2 from '../images/skills/css-3.png';
-import skill3 from '../images/skills/js.png';
-import skill4 from '../images/skills/angular.png';
-import skill5 from '../images/skills/bootstrap.png';
-import skill6 from '../images/skills/github.png';
-import skill7 from '../images/skills/laravel.png';
-import skill8 from '../images/skills/vue.png';
-import skill9 from '../images/skills/react.png';
-import skill10 from '../images/skills/sass.png';
-import skill11 from '../images/skills/git.png';
-import certificate from '../images/skills/certificate.png';
+import terminal from '../assets/images/terminal_pink.png';
+import pasion1 from '../assets/images/programming.png';
+import pasion2 from '../assets/images/javascript.png';
+import pasion3 from '../assets/images/help.png';
+import hobbie1 from '../assets/images/Gaming-pana.png';
+import hobbie2 from '../assets/images/Media-player-pana.png';
+import hobbie3 from '../assets/images/Studying-pana.png';
+import skill1 from '../assets/images/skills/html.png';
+import skill2 from '../assets/images/skills/css-3.png';
+import skill3 from '../assets/images/skills/js.png';
+import skill4 from '../assets/images/skills/angular.png';
+import skill5 from '../assets/images/skills/bootstrap.png';
+import skill6 from '../assets/images/skills/github.png';
+import skill7 from '../assets/images/skills/laravel.png';
+import skill8 from '../assets/images/skills/vue.png';
+import skill9 from '../assets/images/skills/react.png';
+import skill10 from '../assets/images/skills/sass.png';
+import skill11 from '../assets/images/skills/git.png';
+import certificate from '../assets/images/skills/certificate.png';
+import scroll from '../assets/images/mouse_scroll.png';
+
 import Footer from './Footer';
+import { ShakeSlow } from 'reshake'
 import { Col, Row } from 'react-bootstrap';
 
 function Soy() {
@@ -26,6 +29,7 @@ function Soy() {
     <>
         <div className="content-sm">
             <section className="section without_bg" id="soy">
+                <div className="wp_scroll"><div className="line_scroll"></div> <div className="wp_img"><img className="mouse" src={scroll} alt=""/> <div className="dot"></div> </div></div>
                 <div className="wrapper column-12 colum-sm-12 row_reverse" >
                     <div className="wrapper_name">
                         <div>
@@ -184,6 +188,9 @@ function Soy() {
                         <div className="wrapper_title-section">
                             <div className="line_hr"> <hr /> </div>
                             <p className="">Habilidades</p>
+                            {/* <Shake h={10} v={0} r={3}>
+                                Brrr...
+                            </Shake> */}
                         </div>
                     </Col>
                     <Col xs="12" lg="6">
@@ -191,7 +198,7 @@ function Soy() {
                             <div className="content_header">
                                 <div className="wrapper_images">
                                     <img src={skill1} className="img-skill" alt="ayudar"/>
-                                    <a href="https://platzi.com/@pamelapz-15/curso/1492-html-css/diploma/detalle/" target="_blank" rel="noopener noreferrer"><img src={certificate} className="img-certificate" alt="certificado"/></a>
+                                    <ShakeSlow><a href="https://platzi.com/@pamelapz-15/curso/1492-html-css/diploma/detalle/" target="_blank" rel="noopener noreferrer"><img src={certificate} className="img-certificate" alt="certificado"/></a></ShakeSlow>
                                 </div>
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">html</h4>

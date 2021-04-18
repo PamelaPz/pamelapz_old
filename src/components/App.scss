@@ -84,7 +84,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url('../images/binary-code-2.png');
+  background-image: url('../assets/images/binary-code-2.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -120,19 +120,31 @@
 
 // btn
 .wrapper_btn{
-  width: 45%;
+  width: 12%;
   margin-top: 1rem;
   a {
-    background-color: #F76C6C;
+    background-color: $color-pinkLight;
     color: $color-white;
     padding: .3rem 2rem;
     border-radius: 5rem;
     font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    transition: all .5s;
     p {
       margin: 0;
-      font-size: 17px;
-      display: inline-block;
+      font-size: 16px;
+      display: inline;
     }
+  }
+}
+.wrapper_btn:hover {
+  a{
+    background-color: $color-pink;
+    box-shadow: 2px 2px 5px black;
   }
 }
 
@@ -143,8 +155,15 @@
     margin-right: 3rem;
     img {
       width: 1.7rem;
+      transition: .5s;
     }
   }
+}
+#email.super_subtitle:hover {
+  transform: scale(1.04) translateX(10px);
+}
+.icon_social img:hover {
+  transform: scale(1.2);
 }
 @media (max-width: 768px) {
   .wrapper {

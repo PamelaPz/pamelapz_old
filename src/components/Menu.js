@@ -1,10 +1,10 @@
 import './App.scss';
-import linkedin from '../images/linkedin.png';
-import instagram from '../images/instagram.png';
-import whatsapp from '../images/whatsapp.png';
+import linkedin from '../assets/images/linkedin.png';
+import instagram from '../assets/images/instagram.png';
+import whatsapp from '../assets/images/whatsapp.png';
 // import youtube from '../images/youtube.png';
-import menu from '../images/Menu.png';
-import logo from '../images/logo/logo.png';
+import menu from '../assets/images/Menu.png';
+import logo from '../assets/images/logo/logo.png';
 import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 

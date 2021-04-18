@@ -1,8 +1,8 @@
 import React from 'react';
-import linkedin from '../images/linkedin.png';
-import instagram from '../images/instagram.png';
-import whatsapp from '../images/whatsapp.png';
-import terminal from '../images/terminal_pink.png';
+import linkedin from '../assets/images/linkedin.png';
+import instagram from '../assets/images/instagram.png';
+import whatsapp from '../assets/images/whatsapp.png';
+import terminal from '../assets/images/terminal_pink.png';
 import ReactFullpage from '@fullpage/react-fullpage';
 import { Link } from "react-router-dom";
 
@@ -65,11 +65,12 @@ const Fullpage = () => (
                       <p className="super_subtitle">mira algunos de los sitios que he desarrollado y personalizado</p>
                     </div>
                     <div className="wrapper_btn">
-                      <a href="#i"><p>Ir a mirar</p></a>
+                    <Link to="/portfoio"><p>Ir a mirar</p></Link>
                     </div>
                   </div>
                 </div>
               </section>
+
               {/* section contacto */}
               <section className="section" id="contact">
                 <div className="wrapper column-12 colum-sm-12 row_reverse" >
@@ -81,7 +82,7 @@ const Fullpage = () => (
                       <img src={terminal} alt="terminal"/>
                     </div>
                     <div className="wrapper_subtitle p_wrap mt-2">
-                      <p className="super_subtitle"><a className="text-white without_decoration" href="mailto:jpamelapz02@gmail.com">jpamelapz02@gmail.com</a> </p>
+                      <p className="super_subtitle" id="email"><a className="text-white without_decoration" href="mailto:jpamelapz02@gmail.com">jpamelapz02@gmail.com</a> </p>
                     </div>
                     <div className="wrapper_socials">
                       <a href="https://wa.me/5214423183544?text=Hola!%20Me%20interesa%20saber%20más%20de%20tu%20trabajo" className="icon_social"> <img src={whatsapp} alt="whatsapp"/></a>
