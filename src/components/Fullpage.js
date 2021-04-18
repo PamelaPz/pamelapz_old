@@ -46,7 +46,7 @@ const Fullpage = () => (
                       <p className="super_subtitle">una chica que ama la tecnología, programar y ayudar a los demás</p>
                     </div>
                     <div className="wrapper_btn">
-                      <Link to="/iam"><p>Saber más</p></Link>
+                      <Link className="link" to="/iam"><p>Saber más</p></Link>
                     </div>
                   </div>
                   </div>
@@ -65,7 +65,7 @@ const Fullpage = () => (
                       <p className="super_subtitle">mira algunos de los sitios que he desarrollado y personalizado</p>
                     </div>
                     <div className="wrapper_btn">
-                    <Link to="/portfoio"><p>Ir a mirar</p></Link>
+                    <Link className="link" to="/portfoio"><p>Ir a mirar</p></Link>
                     </div>
                   </div>
                 </div>
