@@ -210,10 +210,12 @@
       }
     }
     .wrapper_subtitle {
-      margin: .5rem 0;
+      margin: 1rem 0 .5rem;
+      // margin-top: 1rem;
     }
     .wrapper_divider img{
       width: 2.8rem;
+      margin-top: .5rem;
     }
     .row_reverse {
       flex-direction: column-reverse;
@@ -224,13 +226,13 @@
   }
   // btn
   .wrapper_btn{
-    width: 40%;
-    margin-top: 0;
+    width: 50%;
+    margin-top: .5rem;
     a {
-      padding: .3rem 1rem;
+      padding: .45rem 1.6rem;
       text-decoration: none;
       p {
-        font-size: 13px;
+        font-size: 14px;
         display: inline-block;
       }
     }
@@ -238,15 +240,17 @@
   // socials contact
   .wrapper_socials {
     margin-top: 0;
-    p#email {a {
-      text-decoration: none;
-    }}
+    p#email {
+      a {
+        text-decoration: none;
+      }
+    }
     .icon_social {
       padding-right: 0rem;
-      margin-right: 1rem;
+      margin-right: 2rem;
       color: transparent;
       img {
-        width: 1.3rem;
+        width: 1.6rem;
       }
     }
   }
