@@ -184,8 +184,8 @@
 }
 @media (max-width: 768px) {
   .wrapper {
-    justify-content: flex-start;
-    flex-direction: column;
+    justify-content: center;
+    // flex-direction: column;
     .wrapper_name {
       height: 50vh;
       overflow: hidden;
