@@ -238,8 +238,13 @@
   // socials contact
   .wrapper_socials {
     margin-top: 0;
+    p#email {a {
+      text-decoration: none;
+    }}
     .icon_social {
-      padding-right: 1.5rem;
+      padding-right: 0rem;
+      margin-right: 1rem;
+      color: transparent;
       img {
         width: 1.3rem;
       }
@@ -485,13 +490,13 @@
   .wrapper-footer {
     width: 80%;
     margin: auto;
+    a {
+      text-decoration: underline !important;
+    }
   }
   .footer {
     width: 50%;
     margin: auto;
-  }
-  a {
-    text-decoration: underline !important;
   }
   span {
     padding-right: 0rem !important;
