@@ -228,7 +228,7 @@ function Soy() {
                                     <span className="p-years">3 años</span>
                                 </div>
                             </div>
-                            <ProgressBar className="barra" now={75} label={`${75}%`}/>
+                            <ProgressBar className="barra" now={80} label={`${80}%`}/>
                         </div>
                         <div className="wrapper_skill ml-auto">
                             <div className="content_header">
@@ -259,7 +259,7 @@ function Soy() {
                                     <span className="p-years">1 año</span>
                                 </div>
                             </div>
-                            <ProgressBar className="barra" now={68} label={`${68}%`}/>
+                            <ProgressBar className="barra" now={60} label={`${60}%`}/>
                         </div>
                         <div className="wrapper_skill ml-auto">
                             <div className="content_header">
