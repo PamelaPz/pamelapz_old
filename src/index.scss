@@ -118,6 +118,9 @@ body, html {
   .mr-auto{
     margin-right: 0 !important;
   }
+  .fp-tableCell {
+    height: 100vh !important;
+  }
 }
 /* ----------- ::before de section ------------- */
 
@@ -211,9 +214,6 @@ body, html {
     display: flex;
     justify-content: flex-end;
   }
-  // .w-100 {
-  //   width: 100%;
-  // }
 }
 /* ------------ Scroll Text ----------- */
 .wp_scroll {
