@@ -51,6 +51,7 @@
 @media (max-width: 768px) { 
   .menu {
     height: 3rem;
+    background-color: transparent;
     .navbar {
       height: 3rem;
       padding: 0rem !important;
@@ -188,12 +189,12 @@
     .wrapper_name {
       height: 50vh;
       overflow: hidden;
-      align-items: flex-start;
-      padding: 0 3rem;
+      justify-content: flex-end;
+      padding: 3rem;
     }
     .wrapper_portfolio {
       height: 50vh;
-      // overflow: hidden;
+      // // overflow: hidden;
       justify-content: center;
       align-items: flex-end;
       .wrapper_img {
