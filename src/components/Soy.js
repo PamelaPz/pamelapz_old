@@ -21,7 +21,7 @@ import certificate from '../assets/images/skills/certificate.png';
 import scroll from '../assets/images/mouse_scroll.png';
 
 import Footer from './Footer';
-import { ShakeSlow } from 'reshake'
+import { ShakeSlow, Shake } from 'reshake'
 import { Col, Row } from 'react-bootstrap';
 
 function Soy() {
@@ -198,7 +198,11 @@ function Soy() {
                             <div className="content_header">
                                 <div className="wrapper_images">
                                     <img src={skill1} className="img-skill" alt="ayudar"/>
-                                    <ShakeSlow><a href="https://platzi.com/@pamelapz-15/curso/1492-html-css/diploma/detalle/" target="_blank" rel="noopener noreferrer"><img src={certificate} className="img-certificate" alt="certificado"/></a></ShakeSlow>
+                                    <Shake h={4} v={4} r={3} dur={690} int={30.8} max={100} fixed={true} fixedStop={false} freez={false}>
+                                        <a href="https://platzi.com/@pamelapz-15/curso/1492-html-css/diploma/detalle/" target="_blank" rel="noopener noreferrer">
+                                            <img src={certificate} className="img-certificate" alt="certificado"/>
+                                        </a>
+                                    </Shake>
                                 </div>
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">html</h4>
@@ -212,7 +216,11 @@ function Soy() {
                             <div className="content_header">
                                 <div className="wrapper_images">
                                     <img src={skill2} className="img-skill" alt="ayudar"/>
-                                    <a href="https://platzi.com/@pamelapz-15/curso/1492-html-css/diploma/detalle/" target="_blank" rel="noopener noreferrer"><img src={certificate} className="img-certificate" alt="certificado"/></a>
+                                    <Shake h={4} v={4} r={3} dur={690} int={30.8} max={100} fixed={true} fixedStop={false} freez={false}>
+                                        <a href="https://platzi.com/@pamelapz-15/curso/1492-html-css/diploma/detalle/" target="_blank" rel="noopener noreferrer">
+                                            <img src={certificate} className="img-certificate" alt="certificado"/>
+                                        </a>
+                                    </Shake>
                                 </div>
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">CSS</h4>
@@ -226,6 +234,11 @@ function Soy() {
                             <div className="content_header">
                                 <div className="wrapper_images">
                                     <img src={skill3} className="img-skill" alt="ayudar"/>
+                                    <Shake h={4} v={4} r={3} dur={690} int={30.8} max={100} fixed={true} fixedStop={false} freez={false}>
+                                        <a href="https://platzi.com/p/pamelapz-15/curso/1814-basico-javascript/diploma/detalle/" target="_blank" rel="noopener noreferrer">
+                                            <img src={certificate} className="img-certificate" alt="certificado"/>
+                                        </a>
+                                    </Shake>
                                 </div>
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">JavaScript</h4>
@@ -265,7 +278,11 @@ function Soy() {
                             <div className="content_header">
                                 <div className="wrapper_images">
                                     <img src={skill6} className="img-skill" alt="ayudar"/>
-                                    <a href="https://platzi.com/p/pamelapz-15/curso/1557-git-github/diploma/detalle/" target="_blank" rel="noopener noreferrer"><img src={certificate} className="img-certificate" alt="certificado"/></a>
+                                    <Shake h={4} v={4} r={3} dur={690} int={30.8} max={100} fixed={true} fixedStop={false} freez={false}>
+                                        <a href="https://platzi.com/p/pamelapz-15/curso/1557-git-github/diploma/detalle/" target="_blank" rel="noopener noreferrer">
+                                            <img src={certificate} className="img-certificate" alt="certificado"/>
+                                        </a>
+                                    </Shake>
                                 </div>
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">Github</h4>
@@ -333,7 +350,11 @@ function Soy() {
                             <div className="content_header">
                                 <div className="wrapper_images">
                                     <img src={skill11} className="img-skill" alt="ayudar"/>
-                                    <a href="https://platzi.com/p/pamelapz-15/curso/1557-git-github/diploma/detalle/" target="_blank" rel="noopener noreferrer"><img src={certificate} className="img-certificate" alt="certificado"/></a>
+                                    <Shake h={4} v={4} r={3} dur={690} int={30.8} max={100} fixed={true} fixedStop={false} freez={false}>
+                                        <a href="https://platzi.com/p/pamelapz-15/curso/1557-git-github/diploma/detalle/" target="_blank" rel="noopener noreferrer">
+                                            <img src={certificate} className="img-certificate" alt="certificado"/>
+                                        </a>
+                                    </Shake>
                                 </div>
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">Git</h4>
