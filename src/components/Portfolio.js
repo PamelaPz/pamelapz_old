@@ -41,7 +41,7 @@ function Portfolio() {
                     <Col xs="12" lg="12">
                         <Row>
                             <Col xs="12" lg="6">
-                                <div className="wrapper_cards mr-4">
+                                <div className="wrapper_cards mr-lg-4">
                                     <div className="wrapper_card ml-auto">
                                         <div className="capa">
                                             <div className="wp_sitio-name"><p className="title-p text-white">Jurísico Martínez</p></div>
@@ -63,7 +63,7 @@ function Portfolio() {
                                 </div>
                             </Col>
                             <Col xs="12" lg="6">
-                                <div className="wrapper_cards ml-4">
+                                <div className="wrapper_cards ml-lg-4">
                                     <div className="wrapper_card mr-auto first-top">
                                         <div className="capa">
                                             <div className="wp_sitio-name"><p className="title-p text-white">Enola Space</p></div>

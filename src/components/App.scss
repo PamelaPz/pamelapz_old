@@ -529,6 +529,35 @@
     margin-top: 20rem;
   }
 }
+@media (max-width: 768px) {
+  .wrapper_cards {
+    margin: 3rem 0;
+    .wrapper_card {
+      width: 100%;
+      height: fit-content;
+      overflow: hidden;
+      border-radius: 10px;
+      margin-bottom: 6rem;
+      position: relative;
+      transition: all .8s ease-in-out;
+      .title-p {
+        font-size: 20px;
+      }
+      img {
+        width: 100%;
+      }
+      &:last-child {
+        margin-bottom: 3rem
+      }
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+    .first-top {
+      margin-top: 0rem;
+    }
+  }
+}
 
 /* ----------- footer ----------- */
 .footer {
