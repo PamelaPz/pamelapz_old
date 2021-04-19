@@ -49,13 +49,13 @@ function Soy() {
                     <Col xs="12" lg="5">
                         <div className="wrapper_title-section ">
                             <div className="line_hr"> <hr /> </div>
-                            <p className="">Soy</p>
+                            <p className="">Hola</p>
                         </div>
                     </Col>
                     <Col xs="12" lg="7">
                         <div className="wrapper_info">
                             <p className="text-p">
-                                Hola mi nombre es Pamela, nací en Querétaro, México. 
+                                Mi nombre es Pamela, nací en Querétaro, México. 
                                 Soy una chica que ama programar y ver anime.
                             </p>
                             <p className="text-p">
