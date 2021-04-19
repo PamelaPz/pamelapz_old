@@ -12,7 +12,7 @@ const Fullpage = () => (
         licenseKey = {'YOUR_KEY_HERE'}
         scrollingSpeed = {900}
         navigation
-        sectionsColor={["#282c34", "#ff5f45", "#0798ec"]}
+        // sectionsColor={["#282c34", "#ff5f45", "#0798ec"]}
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
