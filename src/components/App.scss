@@ -104,7 +104,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding-left: 13rem;
+  padding-left: 10rem;
 }
 .wrapper_divider{ 
   margin: .5rem 0;
@@ -477,6 +477,56 @@
     .barra {
       width: 90%;
     }
+  }
+}
+/* ------------ Portfolio -------- */
+.wrapper_cards {
+  margin: 4rem 0;
+  .wrapper_card {
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 16rem;
+    position: relative;
+    transition: all .8s ease-in-out;
+    img {
+      width: 33rem;
+    }
+    &:last-child {
+      margin-bottom: 8rem
+    }
+    .capa {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(transparent, $color-blue);
+      transition: .4s ease-in-out;
+      .wp_sitio-name {
+        position: inherit;
+        bottom: -1rem;
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+        transition: .5s ease-in-out;
+      }
+    }
+    &:hover .capa{
+      // background: linear-gradient(transparent, transparent);
+      // background-position:100px; 
+      transform: translateY(15rem);
+    }
+    &:hover {
+      transform: scale(1.15);
+    }
+    &:hover .capa .wp_sitio-name{
+      transform: translateY(4rem);
+    }
+  }
+  .first-top {
+    margin-top: 20rem;
   }
 }
 
