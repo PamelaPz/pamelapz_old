@@ -336,8 +336,9 @@
     width: 100%;
   }
   .line_hr {
-    width: 3rem;
-    margin-right: 1rem;
+    // width: 3rem;
+    // margin-right: 1rem;
+    display: none;
   }
   .wrapper-pasion {
     padding: 2.5rem 0 1rem;
@@ -472,6 +473,9 @@
           font-family: 'Montserrat', sans-serif;
         }
       }
+    }
+    .barra {
+      width: 90%;
     }
   }
 }
