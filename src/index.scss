@@ -126,7 +126,7 @@ body, html {
 /* ----------- ::before de section ------------- */
 
 .section {
-  // height: 100vh !important;
+  height: 100vh !important;
   width: 100%;
   &::before {
     display: block;
