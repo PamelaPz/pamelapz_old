@@ -14,7 +14,7 @@ function Menu() {
       <Container fluid>
         <Row>
           <Col lg="12">
-            <Navbar>
+            <Navbar className="fixed-top">
               <Link to="/"><div className="logo_img"><img src={logo} alt="Illustration by Freepik Storyset" /></div></Link>
               {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
               <div className="ml-auto">

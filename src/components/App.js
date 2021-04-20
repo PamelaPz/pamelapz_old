@@ -3,10 +3,11 @@ import Menu from './Menu';
 import Home from './Home';
 import Soy from './Soy';
 import Portfolio from './Portfolio';
+import Site from './Site';
 
 import './App.scss';
 import {
-    BrowserRouter as Router,
+  HashRouter as Router,
     Switch,
     Route,
 } from "react-router-dom";
@@ -14,7 +15,7 @@ import {
 function App() {
   return (
     <>
-        <Router>
+        <Router basename="/pamelapz">
           <Menu />
           <SwitchRoutes />
         </Router>
@@ -23,12 +24,14 @@ function App() {
 }
 
 function SwitchRoutes() {
+
     return (
       <>
         <Switch>
           <Route exact path="/" children={<Home />} />
           <Route path="/iam" children={<Soy />} />
-          <Route path="/portfoio" children={<Portfolio />} />
+          <Route path="/portfolio" children={<Portfolio />} />
+          <Route path="/site" children={<Site />} />
         </Switch>
   
       </>

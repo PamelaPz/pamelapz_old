@@ -4,7 +4,7 @@ import instagram from '../assets/images/instagram.png';
 import whatsapp from '../assets/images/whatsapp.png';
 import terminal from '../assets/images/terminal_pink.png';
 import ReactFullpage from '@fullpage/react-fullpage';
-import { Link } from "react-router-dom";
+import { Link  } from "react-router-dom";
 
 const Fullpage = () => (
   <>
@@ -66,7 +66,7 @@ const Fullpage = () => (
                       <p className="super_subtitle">mira algunos de los sitios que he desarrollado y personalizado</p>
                     </div>
                     <div className="wrapper_btn">
-                    <Link className="link" to="/portfoio"><p>Ir a mirar</p></Link>
+                    <Link className="link" to="/portfolio"><p>Ir a mirar</p></Link>
                     </div>
                   </div>
                 </div>

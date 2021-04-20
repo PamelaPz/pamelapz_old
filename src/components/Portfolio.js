@@ -9,6 +9,7 @@ import sitio6 from '../assets/images/sitios/capital_amigo.png';
 import Footer from './Footer';
 import scroll from '../assets/images/mouse_scroll.png';
 import { Col, Row } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 function Portfolio() {
   return (
@@ -43,10 +44,12 @@ function Portfolio() {
                             <Col xs="12" lg="6">
                                 <div className="wrapper_cards mr-lg-4">
                                     <div className="wrapper_card ml-auto">
-                                        <div className="capa">
-                                            <div className="wp_sitio-name"><p className="title-p text-white">Jurísico Martínez</p></div>
-                                        </div>
-                                        <img src={sitio1} alt="" />
+                                       <Link to="/site"> 
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Jurísico Martínez</p></div>
+                                            </div>
+                                            <img src={sitio1} alt="" />
+                                        </Link>
                                     </div>
                                     <div className="wrapper_card ml-auto">
                                         <div className="capa">
