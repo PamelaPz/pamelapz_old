@@ -35,7 +35,9 @@ function Site() {
                     </p>
                 </div>
                 <div className="wrapper_imgFull">
-                    <img src={sitio1} alt=""/>
+                    <a href="http://legaladvisory.com.mx/" target="_blanck">
+                        <img src={sitio1} alt=""/>
+                    </a>
                 </div>
                 <div className="wrapper_description ">
                     <h3 className="title-p">Desarrollo</h3>

@@ -489,7 +489,7 @@
     border-radius: 10px;
     margin-bottom: 16rem;
     position: relative;
-    transition: all .8s ease-in-out;
+    transition: all .4s ease-in-out;
     img {
       width: 33rem;
     }
@@ -519,7 +519,7 @@
       transform: translateY(15rem);
     }
     &:hover {
-      transform: scale(1.15);
+      transform: scale(1.02);
     }
     &:hover .capa .wp_sitio-name{
       transform: translateY(4rem);

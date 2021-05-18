@@ -52,10 +52,12 @@ function Portfolio() {
                                         </Link>
                                     </div>
                                     <div className="wrapper_card ml-auto">
-                                        <div className="capa">
-                                            <div className="wp_sitio-name"><p className="title-p text-white">Broad</p></div>
-                                        </div>
-                                        <img src={sitio3} alt="" />
+                                       <a href="http://broad.mx/" target="_blanck">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Broad</p></div>
+                                            </div>
+                                            <img src={sitio3} alt="" />
+                                       </a>
                                     </div>
                                     <div className="wrapper_card ml-auto">
                                         <div className="capa">
@@ -68,22 +70,28 @@ function Portfolio() {
                             <Col xs="12" lg="6">
                                 <div className="wrapper_cards ml-lg-4">
                                     <div className="wrapper_card mr-auto first-top">
-                                        <div className="capa">
-                                            <div className="wp_sitio-name"><p className="title-p text-white">Enola Space</p></div>
-                                        </div>
-                                        <img src={sitio5} alt="" />
+                                        <a href="http://enola.space/" target="_black">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Enola Space</p></div>
+                                            </div>
+                                            <img src={sitio5} alt="" />
+                                        </a>
                                     </div>
                                     <div className="wrapper_card mr-auto">
-                                        <div className="capa">
-                                            <div className="wp_sitio-name"><p className="title-p text-white">Capital Amigo</p></div>
-                                        </div>
-                                        <img src={sitio6} alt="" />
+                                        <a href="http://capitalamigo.com.mx/" target="_black">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Capital Amigo</p></div>
+                                            </div>
+                                            <img src={sitio6} alt="" />
+                                        </a>
                                     </div>
                                     <div className="wrapper_card mr-auto">
-                                        <div className="capa">
-                                            <div className="wp_sitio-name"><p className="title-p text-white">Propuesta e-firma</p></div>
-                                        </div>
-                                        <img src={sitio2} alt="" />
+                                        <a href="https://e-firma-layout.vercel.app/home" target="_black">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Propuesta e-firma</p></div>
+                                            </div>
+                                            <img src={sitio2} alt="" />
+                                        </a>
                                     </div>
                                 </div>
                             </Col>

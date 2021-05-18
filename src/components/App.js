@@ -25,17 +25,17 @@ function App() {
 
 function SwitchRoutes() {
 
-    return (
-      <>
-        <Switch>
-          <Route exact path="/" children={<Home />} />
-          <Route path="/iam" children={<Soy />} />
-          <Route path="/portfolio" children={<Portfolio />} />
-          <Route path="/site" children={<Site />} />
-        </Switch>
-  
-      </>
-    );
-  }
+  return (
+    <>
+      <Switch>
+        <Route exact path="/" children={<Home />} />
+        <Route path="/iam" children={<Soy />} />
+        <Route path="/portfolio" children={<Portfolio />} />
+        <Route path="/site" children={<Site />} />
+      </Switch>
+
+    </>
+  );
+}
 
 export default App;
