@@ -1,4 +1,4 @@
-import './App.scss';
+import '../assets/App.scss';
 import Fullpage from './Fullpage';
 import { Container } from 'react-bootstrap';
 

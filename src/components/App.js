@@ -5,7 +5,7 @@ import Soy from './Soy';
 import Portfolio from './Portfolio';
 import Site from './Site';
 
-import './App.scss';
+import '../assets/App.scss';
 import {
   HashRouter as Router,
     Switch,

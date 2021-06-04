@@ -491,6 +491,7 @@
     position: relative;
     transition: all .4s ease-in-out;
     img {
+      transition: .3s ease-in-out;
       width: 33rem;
     }
     &:last-child {
@@ -513,13 +514,13 @@
         transition: .5s ease-in-out;
       }
     }
+    img:hover {
+      transform: scale(1.1);
+    }
     &:hover .capa{
       // background: linear-gradient(transparent, transparent);
       // background-position:100px; 
       transform: translateY(15rem);
-    }
-    &:hover {
-      transform: scale(1.02);
     }
     &:hover .capa .wp_sitio-name{
       transform: translateY(4rem);

@@ -1,4 +1,4 @@
-import './App.scss';
+import '../assets/App.scss';
 import linkedin from '../assets/images/linkedin.png';
 import instagram from '../assets/images/instagram.png';
 import whatsapp from '../assets/images/whatsapp.png';

@@ -6,6 +6,9 @@ import sitio3 from '../assets/images/sitios/broad.png';
 import sitio4 from '../assets/images/sitios/filex.png';
 import sitio5 from '../assets/images/sitios/enola_space.png';
 import sitio6 from '../assets/images/sitios/capital_amigo.png';
+import sitio7 from '../assets/images/proyectos/carrito_js.png';
+import sitio8 from '../assets/images/proyectos/enviar_email.png';
+import sitio9 from '../assets/images/proyectos/buscador.png';
 import Footer from './Footer';
 import scroll from '../assets/images/mouse_scroll.png';
 import { Col, Row } from 'react-bootstrap';
@@ -32,7 +35,7 @@ function Portfolio() {
                 </div>
             </section>
             <section className="bg_white text-bluebg soy-pt">
-            <Row className="pt-6">
+                <Row className="pt-6">
                     <Col xs="12" lg="12">
                         <div className="wrapper_title-section ">
                             <div className="line_hr"> <hr /> </div>
@@ -93,6 +96,72 @@ function Portfolio() {
                                             <img src={sitio2} alt="" />
                                         </a>
                                     </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+                <Row className="pt-6">
+                    <Col xs="12" lg="12">
+                        <div className="wrapper_title-section ">
+                            <div className="line_hr"> <hr /> </div>
+                            <p className="">Proyectos</p>
+                        </div>
+                    </Col>
+                    <Col xs="12" lg="12">
+                        <Row>
+                            <Col xs="12" lg="6">
+                                <div className="wrapper_cards mr-lg-4">
+                                    <div className="wrapper_card ml-auto">
+                                        <a href="https://proyecto-carrito.vercel.app" target="_black">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Carrito</p></div>
+                                            </div>
+                                            <img src={sitio7} alt="" />
+                                        </a>
+                                    </div>
+                                    <div className="wrapper_card ml-auto">
+                                       <a href="https://buscador-phi.vercel.app/" target="_blanck">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Buscador</p></div>
+                                            </div>
+                                            <img src={sitio9} alt="" />
+                                       </a>
+                                    </div>
+                                    {/* <div className="wrapper_card ml-auto">
+                                        <div className="capa">
+                                            <div className="wp_sitio-name"><p className="title-p text-white">Filex</p></div>
+                                        </div>
+                                        <img src={sitio4} alt="" />
+                                    </div> */}
+                                </div>
+                            </Col>
+                            <Col xs="12" lg="6">
+                                <div className="wrapper_cards ml-lg-4">
+                                    <div className="wrapper_card mr-auto first-top">
+                                        <a href="https://proyecto-enviar-email.vercel.app" target="_black">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Enviar Email</p></div>
+                                            </div>
+                                            <img src={sitio8} alt="" />
+                                        </a>
+                                    </div>
+                                    {/* <div className="wrapper_card mr-auto">
+                                        <a href="http://capitalamigo.com.mx/" target="_black">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Capital Amigo</p></div>
+                                            </div>
+                                            <img src={sitio6} alt="" />
+                                        </a>
+                                    </div>
+                                    <div className="wrapper_card mr-auto">
+                                        <a href="https://e-firma-layout.vercel.app/home" target="_black">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Propuesta e-firma</p></div>
+                                            </div>
+                                            <img src={sitio2} alt="" />
+                                        </a>
+                                    </div> */}
                                 </div>
                             </Col>
                         </Row>
