@@ -6,9 +6,12 @@ import sitio3 from '../assets/images/sitios/broad.png';
 import sitio4 from '../assets/images/sitios/filex.png';
 import sitio5 from '../assets/images/sitios/enola_space.png';
 import sitio6 from '../assets/images/sitios/capital_amigo.png';
-import sitio7 from '../assets/images/proyectos/carrito_js.png';
-import sitio8 from '../assets/images/proyectos/enviar_email.png';
-import sitio9 from '../assets/images/proyectos/buscador.png';
+import sitio7 from '../assets/images/sitios/legaally.png';
+
+import project1 from '../assets/images/proyectos/carrito_js.png';
+import project2 from '../assets/images/proyectos/enviar_email.png';
+import project3 from '../assets/images/proyectos/buscador.png';
+import proxi from '../assets/images/proyectos/prox.jpg';
 import Footer from './Footer';
 import scroll from '../assets/images/mouse_scroll.png';
 import { Col, Row } from 'react-bootstrap';
@@ -47,12 +50,20 @@ function Portfolio() {
                             <Col xs="12" lg="6">
                                 <div className="wrapper_cards mr-lg-4">
                                     <div className="wrapper_card ml-auto">
-                                       <Link to="/site"> 
+                                        <a href="http://legaally.com/" target="_blanck">
                                             <div className="capa">
-                                                <div className="wp_sitio-name"><p className="title-p text-white">Jurísico Martínez</p></div>
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Legaally</p></div>
                                             </div>
-                                            <img src={sitio1} alt="" />
-                                        </Link>
+                                            <img src={sitio7} alt="" />
+                                        </a>
+                                    </div>
+                                    <div className="wrapper_card ml-auto">
+                                        <a href="http://enola.space/">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Enola Space</p></div>
+                                            </div>
+                                            <img src={sitio5} alt="" />
+                                        </a>
                                     </div>
                                     <div className="wrapper_card ml-auto">
                                        <a href="http://broad.mx/" target="_blanck">
@@ -73,12 +84,12 @@ function Portfolio() {
                             <Col xs="12" lg="6">
                                 <div className="wrapper_cards ml-lg-4">
                                     <div className="wrapper_card mr-auto first-top">
-                                        <a href="http://enola.space/" target="_black">
+                                        <Link to="/site">
                                             <div className="capa">
-                                                <div className="wp_sitio-name"><p className="title-p text-white">Enola Space</p></div>
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Jurísico Martínez</p></div>
                                             </div>
-                                            <img src={sitio5} alt="" />
-                                        </a>
+                                            <img src={sitio1} alt="" />
+                                        </Link>
                                     </div>
                                     <div className="wrapper_card mr-auto">
                                         <a href="http://capitalamigo.com.mx/" target="_black">
@@ -117,7 +128,7 @@ function Portfolio() {
                                             <div className="capa">
                                                 <div className="wp_sitio-name"><p className="title-p text-white">Carrito</p></div>
                                             </div>
-                                            <img src={sitio7} alt="" />
+                                            <img src={project1} alt="" />
                                         </a>
                                     </div>
                                     <div className="wrapper_card ml-auto">
@@ -125,7 +136,7 @@ function Portfolio() {
                                             <div className="capa">
                                                 <div className="wp_sitio-name"><p className="title-p text-white">Buscador</p></div>
                                             </div>
-                                            <img src={sitio9} alt="" />
+                                            <img src={project2} alt="" />
                                        </a>
                                     </div>
                                     {/* <div className="wrapper_card ml-auto">
@@ -143,18 +154,18 @@ function Portfolio() {
                                             <div className="capa">
                                                 <div className="wp_sitio-name"><p className="title-p text-white">Enviar Email</p></div>
                                             </div>
-                                            <img src={sitio8} alt="" />
-                                        </a>
-                                    </div>
-                                    {/* <div className="wrapper_card mr-auto">
-                                        <a href="http://capitalamigo.com.mx/" target="_black">
-                                            <div className="capa">
-                                                <div className="wp_sitio-name"><p className="title-p text-white">Capital Amigo</p></div>
-                                            </div>
-                                            <img src={sitio6} alt="" />
+                                            <img src={project3} alt="" />
                                         </a>
                                     </div>
                                     <div className="wrapper_card mr-auto">
+                                        <a href="http://capitalamigo.com.mx/" target="_black">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Proximamente</p></div>
+                                            </div>
+                                            <img src={proxi} alt="" />
+                                        </a>
+                                    </div>
+                                    {/* <div className="wrapper_card mr-auto">
                                         <a href="https://e-firma-layout.vercel.app/home" target="_black">
                                             <div className="capa">
                                                 <div className="wp_sitio-name"><p className="title-p text-white">Propuesta e-firma</p></div>
