@@ -121,7 +121,7 @@ function Portfolio() {
                                         </a>
                                     </div>
                                     <div className="wrapper_card ml-auto">
-                                       <a href="https://buscador-phi.vercel.app/" target="_blanck">
+                                       <a href="https://proyecto-buscador.vercel.app" target="_blanck">
                                             <div className="capa">
                                                 <div className="wp_sitio-name"><p className="title-p text-white">Buscador</p></div>
                                             </div>
