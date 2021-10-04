@@ -151,7 +151,7 @@ function Portfolio() {
                             </Col>
                             <Col xs="12" lg="6">
                                 <div className="wrapper_cards ml-lg-4">
-                                    <div className="wrapper_card ml-auto first-top">
+                                    <div className="wrapper_card mr-auto first-top">
                                         <a href="http://capitalamigo.com.mx/" target="_black">
                                             <div className="capa">
                                                 <div className="wp_sitio-name"><p className="title-p text-white">Proximamente</p></div>
@@ -159,7 +159,7 @@ function Portfolio() {
                                             <img src={proxi} alt="" />
                                         </a>
                                     </div>
-                                    <div className="wrapper_card ml-auto">
+                                    <div className="wrapper_card mr-auto">
                                         <a href="https://proyecto-enviar-email.vercel.app" target="_black">
                                             <div className="capa">
                                                 <div className="wp_sitio-name"><p className="title-p text-white">Enviar Email</p></div>
@@ -167,7 +167,7 @@ function Portfolio() {
                                             <img src={project3} alt="" />
                                         </a>
                                     </div>
-                                    <div className="wrapper_card ml-auto">
+                                    <div className="wrapper_card mr-auto">
                                        <a href="https://proyecto-buscador.vercel.app" target="_blanck">
                                             <div className="capa">
                                                 <div className="wp_sitio-name"><p className="title-p text-white">Buscador</p></div>
