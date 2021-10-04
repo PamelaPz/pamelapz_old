@@ -123,15 +123,15 @@ function Portfolio() {
                     <Col xs="12" lg="12">
                         <Row>
                             <Col xs="12" lg="6">
-                                <div className="wrapper_card mr-auto">
-                                    <a href="https://tip-calculator-beta-six.vercel.app/" target="_black">
-                                        <div className="capa">
-                                            <div className="wp_sitio-name"><p className="title-p text-white">Calculator Tip</p></div>
-                                        </div>
-                                        <img src={project4} alt="" />
-                                    </a>
-                                </div>
                                 <div className="wrapper_cards mr-lg-4">
+                                    <div className="wrapper_card mr-auto">
+                                        <a href="https://tip-calculator-beta-six.vercel.app/" target="_black">
+                                            <div className="capa">
+                                                <div className="wp_sitio-name"><p className="title-p text-white">Calculator Tip</p></div>
+                                            </div>
+                                            <img src={project4} alt="" />
+                                        </a>
+                                    </div>
                                     <div className="wrapper_card ml-auto">
                                         <a href="https://proyecto-carrito.vercel.app" target="_black">
                                             <div className="capa">
