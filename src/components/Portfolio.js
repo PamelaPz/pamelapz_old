@@ -141,7 +141,7 @@ function Portfolio() {
                                         </a>
                                     </div>
                                     <div className="wrapper_card ml-auto">
-                                        <a href="http://capitalamigo.com.mx/" target="_black">
+                                        <a href="/#" target="_black">
                                             <div className="capa">
                                                 <div className="wp_sitio-name"><p className="title-p text-white">Proximamente</p></div>
                                             </div>
