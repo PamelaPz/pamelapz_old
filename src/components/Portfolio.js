@@ -158,8 +158,8 @@ function Portfolio() {
                                 </div>
                             </Col>
                             <Col xs="12" lg="6">
-                                <div className="wrapper_cards ml-lg-4 first-top">
-                                    <div className="wrapper_card mr-auto">
+                                <div className="wrapper_cards ml-lg-4">
+                                    <div className="wrapper_card mr-auto first-top">
                                         <a href="https://proyecto-enviar-email.vercel.app" target="_black">
                                             <div className="capa">
                                                 <div className="wp_sitio-name"><p className="title-p text-white">Enviar Email</p></div>
