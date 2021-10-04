@@ -11,6 +11,7 @@ import sitio7 from '../assets/images/sitios/legaally.png';
 import project1 from '../assets/images/proyectos/carrito_js.png';
 import project2 from '../assets/images/proyectos/enviar_email.png';
 import project3 from '../assets/images/proyectos/buscador.png';
+import project4 from '../assets/images/proyectos/calculator_tip.jpg';
 import proxi from '../assets/images/proyectos/prox.jpg';
 import Footer from './Footer';
 import scroll from '../assets/images/mouse_scroll.png';
@@ -123,11 +124,11 @@ function Portfolio() {
                         <Row>
                             <Col xs="12" lg="6">
                                 <div className="wrapper_card mr-auto">
-                                    <a href="http://capitalamigo.com.mx/" target="_black">
+                                    <a href="https://tip-calculator-beta-six.vercel.app/" target="_black">
                                         <div className="capa">
-                                            <div className="wp_sitio-name"><p className="title-p text-white">Proximamente</p></div>
+                                            <div className="wp_sitio-name"><p className="title-p text-white">Calculator Tip</p></div>
                                         </div>
-                                        <img src={proxi} alt="" />
+                                        <img src={project4} alt="" />
                                     </a>
                                 </div>
                                 <div className="wrapper_cards mr-lg-4">
