@@ -202,7 +202,7 @@ function Soy() {
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">html</h4>
                                     <hr className="divider"/>
-                                    <span className="p-years">3 años</span>
+                                    <span className="p-years">4 años</span>
                                 </div>
                             </div>
                             <ProgressBar className="barra" now={95} label={`${95}%`}/>
@@ -220,7 +220,7 @@ function Soy() {
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">CSS</h4>
                                     <hr className="divider"/>
-                                    <span className="p-years">3 años</span>
+                                    <span className="p-years">4 años</span>
                                 </div>
                             </div>
                             <ProgressBar className="barra" now={80} label={`${80}%`}/>
@@ -238,7 +238,7 @@ function Soy() {
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">JavaScript</h4>
                                     <hr className="divider"/>
-                                    <span className="p-years">1 años</span>
+                                    <span className="p-years">1.5 años</span>
                                 </div>
                             </div>
                             <ProgressBar className="barra" now={50} label={`${50}%`}/>
@@ -251,10 +251,10 @@ function Soy() {
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">Angular</h4>
                                     <hr className="divider"/>
-                                    <span className="p-years">1 año</span>
+                                    <span className="p-years">6 meses</span>
                                 </div>
                             </div>
-                            <ProgressBar className="barra" now={60} label={`${60}%`}/>
+                            <ProgressBar className="barra" now={30} label={`${30}%`}/>
                         </div>
                         <div className="wrapper_skill ml-auto">
                             <div className="content_header">
@@ -282,7 +282,7 @@ function Soy() {
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">Github</h4>
                                     <hr className="divider"/>
-                                    <span className="p-years">2 años</span>
+                                    <span className="p-years">2.5 años</span>
                                 </div>
                             </div>
                             <ProgressBar className="barra" now={85} label={`${85}%`}/>
@@ -297,7 +297,7 @@ function Soy() {
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">laravel</h4>
                                     <hr className="divider"/>
-                                    <span className="p-years">1 años</span>
+                                    <span className="p-years">1 año</span>
                                 </div>
                             </div>
                             <ProgressBar className="barra" now={45} label={`${45}%`}/>
@@ -310,10 +310,10 @@ function Soy() {
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">vue</h4>
                                     <hr className="divider"/>
-                                    <span className="p-years">6 meses</span>
+                                    <span className="p-years">9 meses</span>
                                 </div>
                             </div>
-                            <ProgressBar className="barra" now={25} label={`${25}%`}/>
+                            <ProgressBar className="barra" now={89} label={`${89}%`}/>
                         </div>
                         <div className="wrapper_skill mr-auto">
                             <div className="content_header">
@@ -326,7 +326,7 @@ function Soy() {
                                     <span className="p-years">1.5 años</span>
                                 </div>
                             </div>
-                            <ProgressBar className="barra" now={70} label={`${70}%`}/>
+                            <ProgressBar className="barra" now={50} label={`${50}%`}/>
                         </div>
                         <div className="wrapper_skill mr-auto">
                             <div className="content_header">
@@ -339,7 +339,7 @@ function Soy() {
                                     <span className="p-years">2 años</span>
                                 </div>
                             </div>
-                            <ProgressBar className="barra" now={50} label={`${50}%`}/>
+                            <ProgressBar className="barra" now={60} label={`${60}%`}/>
                         </div>
                         <div className="wrapper_skill mr-auto">
                             <div className="content_header">
@@ -354,7 +354,7 @@ function Soy() {
                                 <div className="wrapper_info-skill">
                                     <h4 className="title-skill">Git</h4>
                                     <hr className="divider"/>
-                                    <span className="p-years">2 años</span>
+                                    <span className="p-years">2.5 años</span>
                                 </div>
                             </div>
                             <ProgressBar className="barra" now={95} label={`${95}%`}/>
