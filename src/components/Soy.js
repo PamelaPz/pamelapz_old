@@ -241,7 +241,7 @@ function Soy() {
                                     <span className="p-years">1.5 años</span>
                                 </div>
                             </div>
-                            <ProgressBar className="barra" now={50} label={`${50}%`}/>
+                            <ProgressBar className="barra" now={65} label={`${65}%`}/>
                         </div>
                         <div className="wrapper_skill ml-auto">
                             <div className="content_header">
